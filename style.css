@@ -1,0 +1,363 @@
+body{
+    margin:0%;
+    background-color: rosybrown;
+}
+.logo img{
+    display: flex;
+    width: 100px;
+    float:left;
+    padding-top: 0%;
+    
+}
+
+.nav {
+    float: right;
+    margin-top: 15px;
+    padding-right:10px;
+    
+}
+
+.nav a{ 
+    color: #fff;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-size:30px;
+    text-shadow: 2px 2px #444;
+}
+
+.nav :hover{
+    background: #fff;
+    color:lightcoral;
+
+
+}
+.header{
+    
+    text-align: center;
+    color:aliceblue;
+    font-size: 60px;
+    padding-top: 30%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    text-shadow: 2px 2px #444;
+}
+
+
+.parallax{
+
+    background-image: url(thedrink.jpeg);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.para1{
+    
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 30% ;
+    
+}
+
+.healthymindpics{
+    float:right;
+    height: 150px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+.parallax2 {
+
+    background-image: url(confidence.jpeg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textal{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+}
+
+
+.para2 {
+    float:left;
+    height:500px;
+    
+    
+    
+    width: 100%;
+}
+
+.contact{
+    text-align: center;
+    padding-top:20%;
+    font-size: 20px;
+}
+
+.nav1 {
+    float: right;
+    margin-top: 15px;
+    padding-right:10px;
+    
+}
+
+.nav1 a{ 
+    color: #fff;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-size:30px;
+}
+
+.nav1 :hover{
+    background: #fff;
+    color:lightcoral;
+}
+.header1{
+    
+    text-align: center;
+    color:aliceblue;
+    font-size: 60px;
+}
+
+.parallax3{
+    background-image: url(fruits.jpeg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+.header1 {
+       
+       height: 400px;
+       width:100%;
+       padding: 0px 200px 200px 0px;
+       margin-left: 0%;
+       margin-top: 0px;
+}
+
+.recipetitle{
+    text-align: center;
+    color:aliceblue;
+    font-size: 60px;
+    padding-top:10%;
+    text-shadow: 6px 6px #444;
+
+}
+.subtitle{
+
+    text-align: center;
+    color:aliceblue;
+    font-size: 20px;
+    text-shadow: 2px 2px #444;
+}
+
+.categories-container {
+    font-family: "Roboto, sans-serif";
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.3);
+    padding: 25px 16px 16px 16px;
+    margin-left: 19%;
+}
+
+.categories-container h2{
+    text-align: center;
+    color: #444;
+    margin: 16px 0;
+}
+
+.categories-list {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.categories-list img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.categories-list .single-category {
+    height: 160px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories-list .single-category:hover .category-title {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.categories-list .category-title {
+    font-weight: 300;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.the-categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.breakfast {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bf-meal-1 img{
+    height:400px;
+    width: 300px;
+}
+
+.Oats img{
+    height:400px;
+    width:300px;
+}
+
+.crepes img{
+    height:150px;
+    width:300px;
+    
+}
+
+.title10 {
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+}
+
+.bf-meal-1 {
+    background: #fff;
+    
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.Oats {
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Crepes {
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.lunchtitle {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.Lunch {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lunch-meal-1 img{
+    height: 400px;
+    width: 250px;
+    padding-right: 25%;
+}
+
+.lunch-2 img{
+    height: 300px;
+    width:350px;
+}
+
+.lunch-meal-1 {
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lunch-2 {
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.dinner-title {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+
+}
+
+
+.dinner1 img{
+     width:300px;
+
+}
+
+.quinoa img {
+    height: 200px;
+    width:350px;
+}
+
+.dinner {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dinner1 {
+
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quinoa {
+    background: #fff;
+    padding: 10px, 10px, 10px, 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
